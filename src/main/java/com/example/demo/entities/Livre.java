@@ -51,7 +51,7 @@ public class Livre {
 	
 	
 	@Column(nullable = false)
-	@Temporal(TemporalType.TIMESTAMP)
+	@Temporal(TemporalType.DATE)
 	@JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss")
 	@CreationTimestamp
 	private Date date_consultation;
